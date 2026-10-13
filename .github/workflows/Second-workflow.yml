@@ -1,7 +1,11 @@
 
 name: Second workflow
 
-on: push
+on: 
+push:
+workflow_dispatch:
+
+
 
 jobs:
   How-are-you-job:
