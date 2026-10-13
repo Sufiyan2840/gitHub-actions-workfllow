@@ -1,11 +1,9 @@
 
 name: Second workflow
 
-on: 
+on:
   push:
   workflow_dispatch:
-
-
 
 jobs:
   How-are-you-job:
